@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+html{
+    box-sizing: border-box;
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card{
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0  /20%);
+}
+
+ul{
+    list-style-type: none;
+}
+
+.justify{
+    text-align: justify;
+}
+
+img{
+    border-radius: 5px;
+}
+
+.page-header{
+    margin-top: 4rem;
+    font-size: 1.25rem;
+}
+
+
+/*index*/
+.header-img{
+    position: relative;
+    top: 20px;
+    height: 250px;
+    width: 300px;
+    margin-left: 150px;
+    z-index: 100;
+    justify-self: flex-end;
+    animation: slideInFromRight 1s ease-in;
+    --webkit-animation: slideInFromRight 1s ease-in;
+    --moz-animation: slideInFromRight 1s ease-in;
+    --ms-animation: slideInFromRight 1s ease-in;
+    --o-animation: slideInFromRight 1s ease-in;
+}
+
+.header-text{
+    animation: slideInFromLeft 1s ease-in;
+    --webkit-animation: slideInFromLeft 1s ease-in;
+    --moz-animation: slideInFromLeft 1s ease-in;
+    --ms-animation: slideInFromLeft 1s ease-in;
+    --o-animation: slideInFromLeft 1s ease-in;
+}
+
+.about{
+    background-color: rgb(20, 17, 17);
+}
+
+.about h1{
+    border-bottom: 5px solid rgb(151, 9, 9);
+}
+
+.about p{
+    color: #fff;
+}
+
+.feature{
+    background-color: rgb(252, 242, 224);
+}
+
+.feature ul{
+    list-style-type: none;
+    padding-left: 2rem;
+}
+
+.feature ul li a{
+    background-image: url(../img/emoji-smile.svg);
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    color: rgb(172, 27, 27);
+}
+
+.training .icon{
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.75rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.discount{
+    background-image: url(../img/33294629-removebg-preview.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.button{
+    color: maroon;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 1px 1px rgb(0 0 0  /20%);
+}
+
+.success img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 2px solid maroon;
+}
+
+.quincy{
+    outline: 1px solid black;
+}
+
+.success a{
+    color: red;
+}
+
+.success a:hover{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+
+}
+
+.footer{
+    background-color: maroon;
+    color: #fff;
+}
+
+.footer .social{
+    color: #fff;
+}
+
+.footer h1{
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.footer p{
+    color: #fff;
+}
+
+.footer .social a{
+    margin: 0 10px;
+    color: #fff;
+}
+
+.flex{
+    display: flex;
+}
+
+/*pricing*/
+.prices hr{
+    outline: 1px dotted black;
+}
+
+/*feature*/
+.background-image{
+    background-image: url(../img/confident-young-muscular-caucasian-athlete-practicing-gym-with-weights-male-model-doing-strength-exercises-training-his-upper-body-wellness-healthy-lifestyle-bodybuilding-concept.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}
+
+.cta{
+    padding-top: 60px;
+    animation: slideInFromLeft 1s ease-in;
+    --webkit-animation: slideInFromLeft 1s ease-in;
+    --moz-animation: slideInFromLeft 1s ease-in;
+    --ms-animation: slideInFromLeft 1s ease-in;
+    --o-animation: slideInFromLeft 1s ease-in;
+}
+
+.outline-danger{
+    outline: 1px dotted rgb(252, 20, 20);
+}
+
+.outline-dark{
+    outline: 1px dotted rgb(49, 49, 49);
+}
+
+.margin-right{
+    margin-right: 20px;
+}
+
+
+/*community*/
+.margin-top{
+    margin-top: 50px;
+}
+
+.margin-bottom{
+    margin-bottom: 100px;
+}
+
+.lorem{
+    content: '';
+    background: #fff;
+    transform: rotate(10deg);
+    height: 400px;
+    width: 150px;
+    left: 80%;
+    top: 0;
+    border-left: 2px solid #B1B2F0;
+    position: absolute;
+}
+
+
+/*sign up form*/
+#signup{
+    z-index: 1000px;
+}
+form.login-box{
+    width: auto;
+    padding: 50px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    box-shadow: 2px 2px 1px 1px  #333, 2px 2px 1px 1px
+      #333, 2px 2px 1px 1px  #333;
+}
+form.login-box h1{
+    text-transform: uppercase;
+    color: rgb(214, 7, 7);
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+input::placeholder{
+  font-size: .9em;
+  color: #333;
+}
+form.login-box input{
+    font-size: 1em;
+    display: flex;  
+}
+input[type="text"], input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    padding: 10px;
+    outline: 0;
+    color: #000;
+    border-bottom: 1px solid rgb(121, 120, 120);
+}
+
+
+p{
+    color: #000;
+}
+form.login-box a{
+    text-decoration: none;
+    color:red;
+}
+form.login-box a:hover{
+    color: maroon;
+}
+
+
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+}
+ 
+@keyframes slideInFromLeft{
+    0% {
+      transform: translateY(100%);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+} 
